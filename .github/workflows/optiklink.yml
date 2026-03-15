@@ -1,8 +1,8 @@
-name: 🎮 OptikLink 保活
+name: 🎮 OptikLink-Keep
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 1 */2 * *'
   workflow_dispatch:
 
 jobs:
